@@ -147,7 +147,7 @@
 		text-align: center;
 		margin-top: 10px;
 	}
-	p{
+	.text-center{
 		margin-top: 20px;
 		color: red;
 	}
@@ -180,6 +180,12 @@
 	.title{
 		color: #1565C0;
 		font-weight: bold;
+		font-family: 'Dongle', sans-serif;
+		font-size: 30px;
+	}
+	.title2{
+		font-family: 'Dongle', sans-serif;
+		font-size: 25px;
 	}
 </style>
 	
@@ -259,12 +265,12 @@
 				<div>			
 					<a href="" data-bs-toggle="tooltip" title="여행정보"><img alt="*" src="./img/sublist1.png"></a>
 					<p class="title">여행 정보</p>
-					<p>다양한 여행정보를 확인하세요.</p>
+					<p class="title2">다양한 여행정보를 확인하세요.</p>
 				</div>
 				<div>
 					<a href="" data-bs-toggle="tooltip" title="여행일정"><img alt="*" src="./img/sublist2.png"></a>
 					<p class="title">여행 일정</p>
-					<p>다양한 여행일정을 확인하세요.</p>
+					<p class="title2">다양한 여행일정을 확인하세요.</p>
 				</div>
 			</div>
 			
@@ -272,12 +278,12 @@
 				<div>			
 					<a href="" data-bs-toggle="tooltip" title="커뮤니티"><img alt="*" src="./img/sublist3.png"></a>
 					<p class="title">커뮤니티</p>
-					<p>여행자들과 정보를 공유해보세요.</p>
+					<p class="title2">여행자들과 정보를 공유해보세요.</p>
 				</div>
 				<div>
 					<a href="" data-bs-toggle="tooltip" title="인기도시TOP10"><img alt="*" src="./img/sublist4.png" style="width: 260px; height: 140px; margin-top: 10px;"></a>
 					<p class="title">인기도시 TOP10</p>
-					<p>이 달의 인기도시를 확인하세요.</p>
+					<p class="title2">이 달의 인기도시를 확인하세요.</p>
 				</div>
 			</div>
 		</div>
