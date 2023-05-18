@@ -25,7 +25,7 @@
 		localName = request.getParameter("localName"); //localName에 값 저장
 	}
 	System.out.println(localName + "<--localName");
-	
+
 	// 모델 계층
 	String driver = "org.mariadb.jdbc.Driver";
 	String dbUrl = "jdbc:mariadb://127.0.0.1:3306/userboard";
